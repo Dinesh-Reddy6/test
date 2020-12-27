@@ -1,0 +1,58 @@
+#container{
+	border:1px solid black;
+	text-align: center;
+	width:80%;
+	margin:10px auto;
+	background-color: orange;
+}
+#box{
+	display: flex;
+	text-align: center;
+	border:1px solid black;
+	margin:5px auto;
+	background-color: darkgreen;
+	font-size: 22px;
+	color:white;
+}
+#b1{
+	border:1px solid black;
+	flex: 1;
+	height:400px;
+	overflow:scroll;
+}
+#b2{
+	border:1px solid black;
+	flex: 1;
+	height:400px;
+	overflow:scroll;
+}
+
+#but{
+	border:1px solid black;
+	margin:0 auto;
+	display: flex;
+	width:25%;
+	justify-content: space-around;
+	padding:3px;
+}
+#table{
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	padding:5px;
+	margin:5px;
+}
+tr,th,td{
+	border:1px solid black;
+	padding:10px;
+}
+button{
+	padding:10px;
+	background-color: red;
+}
+.imgsize{
+	width:60px;
+	height:80px;
+	border:1px solid black;
+	margin:3px;
+}
